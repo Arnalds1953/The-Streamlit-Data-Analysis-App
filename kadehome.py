@@ -42,7 +42,7 @@ fig1 = go.Figure(data=go.Choropleth(
 ))
 
 fig1.update_layout(
-    title_text = 'Kadehome订单数量分布图',
+    title_text = '订单数量分布图',
     geo_scope='usa', # limite map scope to USA
 )
 
