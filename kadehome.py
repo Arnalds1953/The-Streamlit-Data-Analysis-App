@@ -5,8 +5,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 ### 文件路径
-Path1 = '订单数据.csv'
-Path2 = 'Kadehome商品总表.xlsx'
+Path1 = 'BL订单数据.csv'
+Path2 = 'BL商品总表.xlsx'
 
 ### 读取店铺数据到Dataframe
 df_order = pd.read_csv(Path1)
