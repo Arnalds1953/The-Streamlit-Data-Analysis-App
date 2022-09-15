@@ -19,7 +19,7 @@ df_merge['订单时间'] = pd.to_datetime(df_merge['PO Date'],format='%m/%d/%Y')
 
 ### 导出标准化Dataframe
 df_sel = df_merge[
-    ['PO Number', '订单时间', 'Order Status','分类','Item Number', '唯非SKU','供应商SKU','供应商编码','8月DDP美金','Wholesale Price',
+    ['PO Number', '订单时间', 'Order Status','分类','Item Number', '唯非SKU','供应商SKU','供应商编码','Wholesale Price',
      'Quantity','总销售额', 'Ship To State']
     ] 
 df_use = df_sel.rename(
